@@ -1,6 +1,31 @@
 {
   "redirects": [
     {
+      "source": "/category/decklists",
+      "destination": "https://blog.pauperwave.org/articles?category=decklist",
+      "permanent": true
+    },
+    {
+      "source": "/category/spoiler",
+      "destination": "https://blog.pauperwave.org/articles?category=spoiler",
+      "permanent": true
+    },
+    {
+      "source": "/category/articles",
+      "destination": "https://blog.pauperwave.org/articles?category=article",
+      "permanent": true
+    },
+    {
+      "source": "/category/report",
+      "destination": "https://blog.pauperwave.org/articles?category=report",
+      "permanent": true
+    },
+    {
+      "source": "/category/deckguide",
+      "destination": "https://blog.pauperwave.org/articles?category=tutorial",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "destination": "https://blog.pauperwave.org/$1",
       "permanent": true
